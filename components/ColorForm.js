@@ -29,8 +29,7 @@ export default function ColorForm({ onNewColor = (f) => f }) {
 
 const styles = StyleSheet.create({
   container: {
-    marginRight: 10,
-    marginTop: 40,
+    margin: 5,
     flexDirection: "row",
     alignItems: "center",
   },

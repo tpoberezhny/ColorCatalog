@@ -16,13 +16,13 @@ export default function ColorList({ navigation }) {
         data={colors}
         renderItem={({ item }) => {
           return (
-            <ColorButton
-              key={item.id}
-              backgroundColor={item.color}
-              onPress={() =>
-                navigation.navigate("Details", { color: item.color })
-              }
-            />
+              <ColorButton
+                key={item.id}
+                backgroundColor={item.color}
+                onPress={() =>
+                  navigation.navigate("Details", { color: item.color })
+                }
+              />
           );
         }}
       />
